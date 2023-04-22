@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+  }
+
+header{
+    background-color: blueviolet;
+    width: 100%;
+    color: white;
+    padding: 10px 0px;
+}
+
+header h1{
+    margin: 0px 20px;
+}
+
+#input-area{
+    margin: 0px 20px;
+}
+
+#item-area{
+    width: 100%;
+}
+
+input{
+    color: black;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+#enter-book{
+    color: black;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+article{
+    width: 95%;
+    margin: 10px 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.title-container{
+    width: 100%;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.author-container{
+    width: 30%;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.year-container{
+    width: 3%;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.edit-button{
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid navy;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.trash-button{
+    color: white;
+    background-color: red;
+    border: 1px solid darkred;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.options{
+    /*width: 15%;*/
+    display: flex;
+    gap: 10px;
+}
+  
+#error-message{
+    color: red;
+}
+
+footer{
+    background-color: blueviolet;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 0;
+}
