@@ -1,4 +1,4 @@
-# Proyecto 1: Landind de Negocio
+# Proyecto 2: Implementación de CRUD
 
 ## Descripción
 
